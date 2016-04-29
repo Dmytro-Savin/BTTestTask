@@ -10,13 +10,13 @@ This project represents simple example of automated test that logs into the Gmai
 ###  Instructions:
  To run the test you will have to install Maven and Firefox.
  To start execution do the following:
- * open command line (make sure Maven is set up properly by typing 'mvn -version'. This should result to a short list of Maven info).
- * execute 'mvn clean test' command to run the test. In this case a default parameters (email and password) will be used.
+* open command line (make sure Maven is set up properly by typing 'mvn -version'. This should result to a short list of Maven info).
+* execute 'mvn clean test' command to run the test. In this case a default parameters (email and password) will be used.
   If you would like to change the default parameters, you may replace them in ./src/test/java/testng.xml file
- * execute 'mvn clean test -Demail=DESIRED_EMAIL -Dpassword=<DESIRED_PASSWORD',
+* execute 'mvn clean test -Demail=DESIRED_EMAIL -Dpassword=<DESIRED_PASSWORD',
  where DESIRED_EMAIL is the email you'd like to use, and DESIRED_PASSWORD is the password that will be submitted on the Gmail page.
  Choose this option if you would like make no changes to any files, and run the test with your own credentials.
-  * execute 'mvn site' command to build a report. When command execution is finished the report will be put into ./target/site/allure-maven-plugin/index.html
+* execute 'mvn site' command to build a report. When command execution is finished the report will be put into ./target/site/allure-maven-plugin/index.html
   Note: I observed some issues with report displaying in Chrome, so, please, use Firefox to view it.
 
   Basically, this is it. Please, contact me by Skype in case some clarification is needed.
