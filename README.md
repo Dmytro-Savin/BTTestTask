@@ -7,7 +7,7 @@ This project represents simple example of automated test that logs into the Gmai
  Currently project has no many options that would be nornally used, e.g. logging, different profiles, etc. The test neither makes complex verifications.
  All of them were not added, as there were not much time given for this task preparation, I can add them later if they are requested though.
 
- ### Instructions:
+###  Instructions:
  To run the test you will have to install Maven and Firefox.
  To start execution do the following:
  * open command line (make sure Maven is set up properly by typing 'mvn -version'. This should result to a short list of Maven info).
