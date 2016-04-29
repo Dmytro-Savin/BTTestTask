@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Google Authorization Test">
+    <parameter name="email" value="Selenide.allure@gmail.com" />
+    <parameter name="password" value="q1w2e3R$" />
+    <test name="Logging into Google Mail Account Test">
+        <classes>
+            <class name="scenarios.GoogleTest">
+                <methods>
+                    <include name="loginIntoGoogleAccount" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
